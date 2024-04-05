@@ -199,7 +199,7 @@ export default function Home() {
 					<p><b>Theme: Innovation for Persons with Disabilities</b></p>
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 6th to 12th
+						Eligibilty: 6 to 12
 					</h2>
 					<h2 className="text information" id="participant">
 						Number of Participants: 2
@@ -300,7 +300,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 9th to 12th
+						Eligibilty: 9 to 12
 					</h2>
 
 					<h2 className="text information" id="participant">
@@ -342,7 +342,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 9th to 12th
+						Eligibilty: 9 to 12
 					</h2>
 
 					<h2 className="text information" id="participant">
@@ -355,7 +355,7 @@ export default function Home() {
 
 					<h2 className="text information" id="mode">
 						Mode: Prelims- Submission based;
-						<br /> Finals- 9 May 2024 (Offline)
+						<br />         Finals- 9 May 2024 (Offline)
 					</h2>
 				</div>
 
@@ -538,7 +538,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 8th to 12th
+						Eligibilty: 8 to 12
 					</h2>
 
 					<h2 className="text information" id="participant">
@@ -616,7 +616,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 8th to 12th
+						Eligibilty: 8 to 12
 					</h2>
 
 					<h2 className="text information" id="participant">
@@ -761,7 +761,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 9th to 12th
+						Eligibilty: 9 to 12
 					</h2>
 
 					<h2 className="text information" id="participant">
@@ -798,7 +798,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 8th to 10th
+						Eligibilty: 8 to 10
 					</h2>
 
 					<h2 className="text information" id="participant">
@@ -916,7 +916,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 4th to 5th
+						Eligibilty: 4 to 5
 					</h2>
 
 					<h2 className="text information" id="participant">
