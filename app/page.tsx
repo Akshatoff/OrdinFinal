@@ -1092,7 +1092,7 @@ export default function Home() {
 						className="h-full flex flex-col overflow-hidden items-center justify-evenly bg-black w-full gap-4 mx-auto px-8 relative"
 						ref={pyrotechRef}
 					>
-						<div className="h-2/5 object-cover z-20 grid place-items-center"><img src="pyrologo.png" className="w-1/2"/></div>
+						<div className="object-cover z-20 grid place-items-center -mt-20"><img src="pyrologo.png" className="w-1/3"/></div>
 						<p className="md:text-2xl text-xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
 							Pyrotech, a group of student computer enthusiasts, excels in
 							competitions ranging from web design to robotics, showcasing their
