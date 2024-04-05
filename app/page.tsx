@@ -1129,12 +1129,12 @@ export default function Home() {
 				</main>
 				<main
 					id="guidelines"
-					className="max-[400px]:h-[150rem] dark h-screen flex flex-col items-center overflow-hidden justify-evenly pt-10 pb-[50.75rem]"
+					className=" dark h-screen flex flex-col items-center overflow-hidden justify-evenly "
 				>
 					<div
 						className={
-							"2xl:mt-[90vh] max-[400px]:text-[5vh] guidelines text-[15vh] leading-none z-0  xl:mt-[0rem] mt-[0rem]" +
-							montserrat.className
+							"guidelines text-[15vh] leading-none z-0 h-1/6 " +
+														montserrat.className
 						}
 					>
 						GUIDELINES
