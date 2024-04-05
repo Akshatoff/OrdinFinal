@@ -230,7 +230,10 @@ export default function Home() {
 						They must also submit a video of maximum 2 minutes showcasing the video of
 						the model
 					</li>
-
+					
+					<li className="item" id="point">
+					Submission to be done by Thursday, 25 April 2024 through the following  <a href="https://forms.gle/66U5aga2pXMK3o6N6" className="shade"><b>link</b></a>
+					</li>
 					
 
 					<li className="item" id="point">
@@ -258,7 +261,7 @@ export default function Home() {
 				</ol>
 
 				<h2 className="text" id="subtext">
-					Judgment criteria:
+					Judgement criteria:
 				</h2>
 
 				<ol className="list-disc">
@@ -427,7 +430,7 @@ export default function Home() {
 				</ol>
 
 				<h2 className="text" id="subtext">
-					<b>Judgment criteria:</b>
+					<b>Judgement criteria:</b>
 				</h2>
 
 				<ol className="list-disc">
@@ -467,15 +470,25 @@ export default function Home() {
 						The teams are required to make a presentation of 10-12 slides
 						including typography and suitable color scheme, with the following
 						points included:
-						<br />
-						Implementation of AI
-						<br />
-						Target market customer analysis competitors operations
-						<br />
-						Marketing and Financial
-						<br />
-						SWOT analysis
+						<ol className="list-disc">
+					<li className="item indent-8" id="point">
+						Integration of AI 
 					</li>
+
+					<li className="item indent-8" id="point">
+					Target market customer analysis competitors operations
+					</li>
+
+					<li className="item indent-8" id="point">
+					Marketing and Financial
+
+					</li>
+
+					<li className="item indent-8" id="point">
+						Swot Analysis
+					</li>
+				</ol>
+							</li>
 
 					<li className="item" id="point">
 						The presentation has to be given in the school in front of a panel
@@ -490,7 +503,7 @@ export default function Home() {
 					</li>
 				</ol>
 				<h2 className="text" id="subtext">
-					<b>Judgment criteria:</b>
+					<b>Judgement criteria:</b>
 				</h2>
 
 				<ol className="list-disc">
@@ -1120,7 +1133,7 @@ export default function Home() {
 				>
 					<div
 						className={
-							"2xl-[90vh] max-[400px]:text-[5vh] guidelines text-[15vh] leading-none z-0" +
+							"2xl:mt-[90vh] max-[400px]:text-[5vh] guidelines text-[15vh] leading-none z-0" +
 							montserrat.className
 						}
 					>
