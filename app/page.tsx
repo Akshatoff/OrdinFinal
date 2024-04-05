@@ -191,7 +191,7 @@ export default function Home() {
 		"@Kuriovation": (
 			
 			<div className="space-y-4">
-				<video src="./eventstitle/kuriovation.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+				<video src="./eventstitle/kuriovation.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 				<p className="text" id="description-popup">
 					A presentation competition for participants with great technological
 					ideas that could bring changes to the world.
@@ -285,7 +285,7 @@ export default function Home() {
 		),
 		"@MechaMarvel": (
 			<div className="space-y-4">
-								<video src="./eventstitle/mechamarvel.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+								<video src="./eventstitle/mechamarvel.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				<p className="text" id="description-popup">
 					Sumo robotics is a competitive sport where teams create robots to push
@@ -329,7 +329,7 @@ export default function Home() {
 		),
 		"@Synapse": (
 			<div className="space-y-4">
-			<video src="./eventstitle/synapse.mp4" autoPlay muted className="h-[8rem] mt-[-2rem]" loop></video>
+			<video src="./eventstitle/synapse.mp4" autoPlay muted className="h-[8rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				<p className="text" id="description-popup">
 					Develop a business idea/product/service that leverages Artificial
@@ -515,7 +515,7 @@ export default function Home() {
 		),
 		"@Arcadia": (
 			<div className="space-y-4">
-								<video src="./eventstitle/arcadia.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+								<video src="./eventstitle/arcadia.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				<p className="text" id="description-popup">
 					The game to be played is ‘VALORANT’ in a 5v5 mode. All teams will be
@@ -594,7 +594,7 @@ export default function Home() {
 		),
 		"@QuantaLens": (
 			<div className="space-y-4">
-								<video src="./eventstitle/quantalens.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+								<video src="./eventstitle/quantalens.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				<p className="text" id="description-popup">
 					A prompt will be released on Saturday 20 April 2024 and participants
@@ -738,7 +738,7 @@ export default function Home() {
 		),
 		"@RoboRush": (
 			<div>
-				<video src="./eventstitle/roborush.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+				<video src="./eventstitle/roborush.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				<p className="text" id="description-popup">
 					Participants pit their autonomous creations against each other in a
@@ -775,7 +775,7 @@ export default function Home() {
 		),
 		"@AquaDash": (
 			<div>
-								<video src="./eventstitle/aquadash.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+								<video src="./eventstitle/aquadash.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				<p className="text" id="description-popup">
 					Participants navigate the waves of innovation as their bots compete in
@@ -828,7 +828,7 @@ export default function Home() {
 		),
 		"@CypherNexus": (
 <div>
-<video src="./eventstitle/cypher.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+<video src="./eventstitle/cypher.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				
 			<h2 className="text information" id="lang"><b>Prelims</b></h2>
@@ -895,7 +895,7 @@ export default function Home() {
 		"@TechTales": (
 		
 			<div className="space-y-4">
-		<video src="./eventstitle/techtales.mp4" autoPlay muted className="h-[17rem] mt-[-2rem]" loop></video>
+		<video src="./eventstitle/techtales.mp4" autoPlay muted className="h-[17rem] mt-[-2rem] w-[102rem]" loop></video>
 
 				<p className="text" id="description-popup">
 					Participants must weave tales and bring their characters to life in a competition of creativity and imagination through the medium of comic strips
@@ -1193,9 +1193,7 @@ export default function Home() {
 						<div className="bg-[#000000] w-[80vw] h-[90vh] p-8 rounded-lg flex flex-col overflow-y-scroll popupb" ref={popUpRef}>
 							<div className="flex flex-row justify-between items-center">
 							<div								>
-									{typeof showPopup[1] === "string"
-										? showPopup[1].toUpperCase()
-										: ""}
+									
 								</div>
 								<button
 									onClick={() => setShowPopup([false, ""])}
