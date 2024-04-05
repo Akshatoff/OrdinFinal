@@ -1166,7 +1166,7 @@ export default function Home() {
 								All future correspondence will be done through Discord and Mail.
 							</li>
 						</ul>
-						<ul className="w-1/2 space-y-9 list-disc">
+						<ul className="w-1/2 space-y-9 list-disc ">
 							<li>
 								The result of preliminary rounds will be posted on the event
 								website and on Discord.
@@ -1184,7 +1184,7 @@ export default function Home() {
 								or indecent.
 							</li>
 							<li>Kindly join our Discord using the following <a className = "shade" href="https://discord.com/invite/6yePcbWTQs"><b>link</b></a></li>
-							<li>
+							<li className="mb-40">
 								An overall trophy will be awarded to the team which secures the
 								maximum points in the competition. For any further queries
 								kindly contact us <a className = "shade" href="mailto:pyrotech@tagoreint.com"><b>at Pyrotech Club</b></a>
@@ -1193,7 +1193,7 @@ export default function Home() {
 					</div>
 				</main>
 				<main id="trailer"
-					className="dark min-h-screen flex justify-center item-center overflow-hidden relative"
+					className="dark min-h-screen flex justify-center item-center overflow-hidden relative mt-[5rem]"
 					>
 						
 						
