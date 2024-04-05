@@ -1133,7 +1133,7 @@ export default function Home() {
 				>
 					<div
 						className={
-							"2xl:mt-[90vh] max-[400px]:text-[5vh] guidelines text-[15vh] leading-none z-0" +
+							"mt-[90vh] max-[400px]:text-[5vh] guidelines text-[15vh] leading-none z-0 " +
 							montserrat.className
 						}
 					>
