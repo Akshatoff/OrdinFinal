@@ -616,7 +616,7 @@ export default function Home() {
 
 				<div className="eventcontent">
 					<h2 className="text information" id="elig">
-						Eligibilty: 8 to 12
+						Eligibilty: 9 to 12
 					</h2>
 
 					<h2 className="text information" id="participant">
