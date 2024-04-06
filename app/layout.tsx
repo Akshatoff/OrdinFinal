@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	title: "Ordin@Trix24",
 	description: "The official website for OrdinatriXKurioubots created by the pyrotech club",
+	icons: {
+		icon:"favicon.ico",
+	},
 };
 
 export default function RootLayout({
