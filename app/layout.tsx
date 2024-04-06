@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 	title: "Ordin@Trix24",
 	description: "The official website for OrdinatriXKurioubots created by the pyrotech club",
 	icons: {
-		icon:"favicon.ico",
+		icon:"/favicon.ico",
 	},
 };
 
@@ -21,6 +21,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
+				<link rel="icon" href="/favicon.ico" sizes="any" />
 			{children}
 			</body>
 			
