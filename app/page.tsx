@@ -1139,7 +1139,7 @@ export default function Home() {
 					>
 						GUIDELINES
 					</div>
-					<div className="max-[400px]:flex-col w-4/5 max-w-5xl flex gap-[7rem] mt-[2rem] ">
+					<div className="max-[400px]:flex-col max-[400px]:ml-[10rem] w-4/5 max-w-5xl flex gap-[7rem] mt-[2rem] ">
 						<ul className="w-1/2 space-y-9 list-disc">
 							<li >
 								ONLINE registrations will be done on a first come first served
@@ -1199,7 +1199,7 @@ export default function Home() {
 						
 
 					
-					<iframe width="1000" height="600" src="https://www.youtube.com/embed/a1vZKBa2zHI?si=gYdkxQoS28yz65Ke" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded pb-[5rem] w-[300px] h-[600px]"></iframe>
+					<iframe width="1000" height="600" src="https://www.youtube.com/embed/a1vZKBa2zHI?si=gYdkxQoS28yz65Ke" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="max-[400px]:w-[300px] max-[400px]:h-[600px] rounded pb-[5rem]  "></iframe>
 					</main>
 				{showPopup[0] && (
 					<div className="fixed inset-0 bg-black/50 dark:bg-black/90 flex justify-center items-center z-20 popupb">
