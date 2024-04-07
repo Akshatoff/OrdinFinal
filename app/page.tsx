@@ -96,6 +96,11 @@ export default function Home() {
 			role: "Programmer",
 			image: "/team/AR Nadal Verma.jpg",
 		},
+		{
+			name: "Devasya",
+			role: "Audio Editing Head",
+			image: "/team/devasya.jpeg",
+		},
 	];
 	const Skeleton = () => {
 		return (
