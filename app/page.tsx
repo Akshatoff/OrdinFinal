@@ -1015,12 +1015,12 @@ export default function Home() {
 
 			<main
 				id="home"
-				className="max-[400px]:h-[45rem] dark h-screen grid grid-rows-3 place-items-center overflow-hidden bg-[conic-gradient(var(--tw-gradient-stops))] from-[#0084B0] to-[#000608]"
+				className="max-[600px]:h-[45rem] dark h-screen grid grid-rows-3 place-items-center overflow-hidden bg-[conic-gradient(var(--tw-gradient-stops))] from-[#0084B0] to-[#000608]"
 			>
-				<FloatingNav navItems={navItems} showPopup={showPopup}className="max-[400px]:hidden mt-[-1rem]"/>
+				<FloatingNav navItems={navItems} showPopup={showPopup}className="max-[600px]:hidden mt-[-1rem]"/>
 				<div
 					className={
-						"max-[400px]:ml-[3rem] tracking-[0.4vw] text-[30px] self-end" + helvetica.className
+						"max-[600px]:ml-[3rem] tracking-[0.4vw] text-[30px] self-end" + helvetica.className
 					}
 				>
 					<span className="text-cyan-400">PYROTECH CLUB</span> &{" "}
@@ -1050,7 +1050,7 @@ export default function Home() {
 					
 
 						<div className="h-2/5 object-cover z-20 grid place-items-center"><img src="ordinlogo.png"/></div>
-						<p className="max-[400px]:text-xs md:text-2xl text-xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto mb-20">
+						<p className="max-[600px]:text-xs md:text-2xl text-xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto mb-20">
 							Twenty years ago, a dream took root, giving rise to Ordin@trix—a
 							celebration of creativity, talent, and skill. From its humble
 							beginnings at the state level, it has blossomed into an
@@ -1093,7 +1093,7 @@ export default function Home() {
 						ref={pyrotechRef}
 					>
 						<div className="object-cover z-20 grid place-items-center 2xl:-mt-20 -mt-15"><img src="pyrologo.png" className="w-1/3"/></div>
-						<p className="max-[400px]:text-sm md:text-2xl text-xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
+						<p className="max-[600px]:text-sm md:text-2xl text-xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
 							Pyrotech, a group of student computer enthusiasts, excels in
 							competitions ranging from web design to robotics, showcasing their
 							diverse skills. Their achievements in events like image editing
@@ -1129,17 +1129,17 @@ export default function Home() {
 				</main>
 				<main
 					id="guidelines"
-					className="max-[400px]:h-[160rem] dark h-screen flex flex-col items-center overflow-hidden justify-evenly "
+					className="max-[600px]:h-[160rem] dark h-screen flex flex-col items-center overflow-hidden justify-evenly "
 				>
 					<div
 						className={
-							"max-[400px]:text-[3rem] guidelines text-[15vh] leading-none z-0 h-1/6 " +
+							"max-[600px]:text-[3rem] guidelines text-[15vh] leading-none z-0 h-1/6 " +
 														montserrat.className
 						}
 					>
 						GUIDELINES
 					</div>
-					<div className="max-[400px]:flex-col max-[400px]:ml-[10rem] w-4/5 max-w-5xl flex gap-[7rem] mt-[2rem] ">
+					<div className="max-[600px]:flex-col max-[600px]:ml-[10rem] w-4/5 max-w-5xl flex gap-[7rem] mt-[2rem] ">
 						<ul className="w-1/2 space-y-9 list-disc">
 							<li >
 								ONLINE registrations will be done on a first come first served
@@ -1199,7 +1199,7 @@ export default function Home() {
 						
 
 					
-					<iframe width="1000" height="600" src="https://www.youtube.com/embed/a1vZKBa2zHI?si=gYdkxQoS28yz65Ke" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="max-[400px]:w-[300px] max-[400px]:h-[600px] rounded pb-[5rem]  "></iframe>
+					<iframe width="1000" height="600" src="https://www.youtube.com/embed/a1vZKBa2zHI?si=gYdkxQoS28yz65Ke" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="max-[600px]:w-[300px] max-[600px]:h-[600px] rounded pb-[5rem]  "></iframe>
 					</main>
 				{showPopup[0] && (
 					<div className="fixed inset-0 bg-black/50 dark:bg-black/90 flex justify-center items-center z-20 popupb">
@@ -1285,7 +1285,7 @@ export default function Home() {
 						))}
 					</Carousel>
 				</main>
-				<main className="max-[400px]:hidden h-[40vh] bg-[#00070b] " id="contact">
+				<main className="max-[600px]:hidden h-[40vh] bg-[#00070b] " id="contact">
 					<div className="dark flex justify-around items-center h-full">
 						<div>
 							<h1 className="text-2xl mb-3">HAVE ANY QUERIES?</h1>
