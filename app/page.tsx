@@ -1260,6 +1260,45 @@ export default function Home() {
 					</BentoGrid>
 				</main>
 				<main
+					id="updates"
+					className="dark min-h-screen flex flex-col items-center overflow-hidden justify-evenly "
+				>
+					<div
+						className={
+							"max-[600px]:text-[3rem] guidelines text-[20vh] leading-none z-0 h-1/6 " +
+														montserrat.className
+						}
+					>
+						Updates
+					</div>
+					
+					<div className="card-container-update flex flex-row gap-4">
+					
+					<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">Invitation To Join Discord Server</h5>
+<p className="font-normal text-gray-700 dark:text-gray-400">Participants to kindly join the discord server as soon as possible <br></br>Click <a className = "shade" href="https://discord.com/invite/6yePcbWTQs"><b>here</b></a></p>
+</a>
+
+
+<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Registration Open <br></br>Now</h5>
+<p className=" font-normal text-gray-700 dark:text-gray-400">Registration have been opened kindly note they will be open till 16 April 2024</p>
+</a>
+
+<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Registration Closing Date Extended</h5>
+<p className=" font-normal text-gray-700 dark:text-gray-400">Registration deadline has been extended till 20 April!<br></br>Register Fast</p>
+</a>
+
+
+
+
+</div>
+				</main>
+				<main
 					id="team"
 					className="dark h-screen flex flex-col justify-evenly items-center overflow-hidden bg-transparent p-8"
 				>
