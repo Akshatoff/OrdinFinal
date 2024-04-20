@@ -1274,11 +1274,7 @@ export default function Home() {
 					
 					<div className="card-container-update flex flex-row gap-4">
 					
-					<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">Invitation To Join Discord Server</h5>
-<p className="font-normal text-gray-700 dark:text-gray-400">Participants to kindly join the discord server as soon as possible <br></br>Click <a className = "shade" href="https://discord.com/invite/6yePcbWTQs"><b>here</b></a></p>
-</a>
+					
 
 
 <a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -1291,6 +1287,12 @@ export default function Home() {
 
 <h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Registration Closing Date Extended</h5>
 <p className=" font-normal text-gray-700 dark:text-gray-400">Registration deadline has been extended till 20 April!<br></br>Register Fast</p>
+</a>
+
+<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">@Synapse and @Quantalens prompts </h5>
+<p className="font-normal text-gray-700 dark:text-gray-400">Prompts for @Synapse and @QuantaLens have been released. Participants to note that the Deadline of Submission is 1st May 2024. <br></br>Before 11:59 PM.</p>
 </a>
 
 
