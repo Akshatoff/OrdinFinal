@@ -1277,11 +1277,7 @@ export default function Home() {
 					
 
 
-<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Registration Open <br></br>Now</h5>
-<p className=" font-normal text-gray-700 dark:text-gray-400">Registration have been opened kindly note they will be open till 16 April 2024</p>
-</a>
 
 <a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
@@ -1295,7 +1291,11 @@ export default function Home() {
 <p className="font-normal text-gray-700 dark:text-gray-400">Prompts for @Synapse and @QuantaLens have been released. Participants to note that the Deadline of Submission is 1st May 2024. <br></br>Before 11:59 PM.</p>
 </a>
 
+<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
+<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Registration Closes <br></br>Now</h5>
+<p className=" font-normal text-gray-700 dark:text-gray-400">Participants to kindly note that the registration have been closed and no further registration will be accepted.</p>
+</a>
 
 
 </div>
