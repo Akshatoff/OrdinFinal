@@ -1272,7 +1272,7 @@ export default function Home() {
 						Updates
 					</div>
 					
-					<div className="min-[600px]:flex-col card-container-update flex flex-row gap-4">
+					<div className="max-[600px]:flex-col card-container-update flex flex-row gap-4">
 					
 					
 
