@@ -1279,11 +1279,7 @@ export default function Home() {
 
 
 
-<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Registration Closing Date Extended</h5>
-<p className=" font-normal text-gray-700 dark:text-gray-400">Registration deadline has been extended till 20 April!<br></br>Register Fast</p>
-</a>
 
 <a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
@@ -1295,6 +1291,10 @@ export default function Home() {
 
 <h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Registration Closes <br></br>Now</h5>
 <p className=" font-normal text-gray-700 dark:text-gray-400">Participants to kindly note that the registration have been closed and no further registration will be accepted.</p>
+</a>
+<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kuriovation Submissions Date Extended</h5>
+<p className=" font-normal text-gray-700 dark:text-gray-400">Kindly note that the submission deadline for the event @Kuriovation has been extended to 6:00pm, Sunday, 28th April 2024.</p>
 </a>
 
 
