@@ -1281,11 +1281,6 @@ export default function Home() {
 
 
 
-<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">@Synapse and @Quantalens prompts </h5>
-<p className="font-normal text-gray-700 dark:text-gray-400">Prompts for @Synapse and @QuantaLens have been released. Participants to note that the Deadline of Submission is 1st May 2024. <br></br>Before 11:59 PM.</p>
-</a>
 
 <a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
@@ -1295,6 +1290,11 @@ export default function Home() {
 <a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 <h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kuriovation Submissions Date Extended</h5>
 <p className=" font-normal text-gray-700 dark:text-gray-400">Kindly note that the submission deadline for the event @Kuriovation has been extended to 6:00pm, Sunday, 28th April 2024.</p>
+</a>
+<a className=" block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<h5 className=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">Prelim Results Out </h5>
+<p className="font-normal text-gray-700 dark:text-gray-400">Participants to kindly note that the results for the prelim are now out. Congratulations to everyone who have proceded to the final round and thank to everyone for taking part.</p>
 </a>
 
 
