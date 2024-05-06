@@ -1011,7 +1011,43 @@ export default function Home() {
 	  if (loading) {
 		return <Preloader />;
 	  }
- 
+	  
+	  const ImagePopup = ({ src, alt }) => {
+		const [isOpen, setIsOpen] = useState(false);
+	  
+		const openPopup = () => {
+		  setIsOpen(true);
+		};
+	  
+		const closePopup = () => {
+		  setIsOpen(false);
+		};
+	  
+		return (
+		  <div>
+			<img src="/banner.png" alt={alt} onClick={openPopup} className="cursor-pointer" />
+			{isOpen && (
+			  <div
+				className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
+				onClick={closePopup}
+			  >
+				<div
+				  className="bg-white rounded-lg shadow-lg p-6 max-w-full max-h-full relative"
+				  onClick={(e) => e.stopPropagation()}
+				>
+				  <button
+					className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
+					onClick={closePopup}
+				  >
+					&times;
+				  </button>
+				  <img src={"/banner.png"} alt={alt} className="max-w-full max-h-full" />
+				</div>
+			  </div>
+			)}
+		  </div>
+		);
+	  };
 
 	
 	return (
