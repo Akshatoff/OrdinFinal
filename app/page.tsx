@@ -1037,7 +1037,7 @@ export default function Home() {
 					className="w-[80%] max-w-screen-2xl justify-self-center"
 					alt="ordin"
 				/>
-				<span className="text-white-400 text-xl">GIFTING PARTNER <img
+				<span className="text-white-400 text-2xl flex justify-center items-center gap-[3rem]">GIFTING PARTNER <img
 					src="/boat.png"
 					className="w-[20%]"
 					alt="ordin"
