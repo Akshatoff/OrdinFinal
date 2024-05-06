@@ -1072,6 +1072,12 @@ export default function Home() {
 					className="w-[80%] max-w-screen-2xl justify-self-center"
 					alt="ordin"
 				/>
+				<span className="text-cyan-400">GIFTING PARTNER <img
+					src="/boat.png"
+					className="w-[20%] max-w-screen-2xl justify-self-center"
+					alt="ordin"
+				/></span>
+
 			</main>
 			<div className="guidelinesGradient">
 				<main
