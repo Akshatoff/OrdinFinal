@@ -68,7 +68,7 @@ export default function Home() {
 		},
 		{
 			name: "Lavnika",
-			role: "Photography Head",
+			role: "President",
 			image: "/team/lavnika.jpg",
 		},
 		{
@@ -78,7 +78,7 @@ export default function Home() {
 		},
 		{
 			name: "Akshat",
-			role: "Web Development Head",
+			role: "Creative Head",
 			image: "/team/aks.jpg",
 		},
 		{
