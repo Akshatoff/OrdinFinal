@@ -76,7 +76,7 @@ export default function Home() {
 		        name: "Daksh ",
 			role: "Vice President",
 			image: "/team/IMG-20241113-WA0022.jpg"
-		}
+		},
 		{
 			name: "Aneira",
 			role: "Creative Head",
