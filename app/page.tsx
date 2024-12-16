@@ -73,7 +73,7 @@ export default function Home() {
 		},
 		{
 			name: "Aneira",
-			role: "Designing Head",
+			role: "Creative Head",
 			image: "/team/aneira.jpg",
 		},
 		{
